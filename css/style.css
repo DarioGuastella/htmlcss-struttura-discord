@@ -1,5 +1,95 @@
+/* PROPRIETA' COMUNI  */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #222222;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+
+/* PROPRIETA' HEADER  */
+
+ header {
+    background-color: #add8e6;
+    display: flex;
+	flex-direction: column; 
+	justify-content: space-between;
+	flex-wrap: wrap;
+    margin: auto;
+}
+
+/* CONTENUTO HEADER + NAV  */
+
+.menu-item > a {
+    text-decoration: none;
+}
+
+.menu {
+	display: flex;
+	flex-direction: row; 
+	justify-content: center;
+	flex-wrap: wrap;
+    width: 50%;
+    align-items: center;
+    
+    
+}
+
+.menu-item {
+	padding: 0 5px;
+}
+
+.flexcontainertop {
+    background-color: #daa520;
+    display: flex;
+	flex-direction: row; 
+	justify-content: space-around;
+	flex-wrap: wrap;
+    width: 80%;
+    height: 2em;
+    margin: 10px auto;
+    
+}
+
+.logo, .login {
+    width: 25%;
+    display: flex;
+	flex-direction: row; 
+	justify-content: center;
+	flex-wrap: wrap;
+    align-self: center;
+    
+}
+
+.logo {
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.login {
+    justify-content: flex-end;
+    padding-right: 10px;
+
+    
+}
+
+.flexcontainermain {
+    display: flex;
+    height: 262px;
+    width: 100%;
+    background-color: #00008b;
+    margin-bottom: 3px;
+}
+
+.headermaincontent {
+    background-color: #ee82ee;
+    height: 200px;
+    width: 70%;
+    margin: 30px auto;
+}
+
+/* FINE CONTENUTO HEADER */
