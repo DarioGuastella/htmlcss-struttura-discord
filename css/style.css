@@ -81,11 +81,11 @@ body{
 
 .flexcontainermain {
     display: flex;
-    height: 370px;
     width: 100%;
+    margin: 0px auto;
 }
 
-.headermaincontent {
+.maincontent {
     background-color: #ee82ee;
     height: 310px;
     width: 40%;
@@ -147,5 +147,57 @@ body{
     display: flex;
     height: 680px;
     width: 100%;
+
+}
+
+/* PROPRIETA' FOOTER */
+
+.footercontainermain {
+
+    display: flex;
+    width: 50%;
+    margin: 5px auto 30px auto;
+
+}
+
+.leftbox {
+    background-color: #f08080;
+    height: 450px;
+    width: 33%;
+}
+
+.rightbox {
+    background-color: #20b2aa;
+    height: 450px;
+    width: 67%;
+    display: flex;
+    flex-direction: row;
+}
+
+.flexrow {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+
+hr {
+    color: 1px solid grey;
+}
+
+.footerend {
+    display: flex;
+    width: 50%;
+    margin: 30px auto 0 auto;
+    background-color: #7fffd4;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.rightbutton, .leftbutton {
+    background-color: #ffb6c1;
+    align-self: center;
+    padding: 5px;
 
 }
